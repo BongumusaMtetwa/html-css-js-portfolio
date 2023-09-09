@@ -1,0 +1,9 @@
+@media screen and (max-width:1200px) {
+    /*show or hide hamburger menu to given width*/
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
