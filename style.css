@@ -157,7 +157,7 @@ section{
     display: flex;
     justify-content: center;
     gap:5rem;
-    height: 80vh;
+    /* height: 50vh; */
 }
 
 .section__pic-container {
@@ -186,6 +186,7 @@ section{
 .title {
     font-size: 3rem;
     text-align: center;
+    /* height: 10vh; */
 }
 
 #socials-container{
@@ -250,7 +251,7 @@ section{
 
 /*About section*/
 #about{
-    position: relative;
+    position: relative;   
 }
 .about-containers{
     gap:2rem;
@@ -294,6 +295,7 @@ section{
 /*Experiences section*/
 #experience{
     position: relative;
+   
 }
 .experience-sub-title{
     color:rgb(85,85,85);
@@ -331,6 +333,7 @@ article .icon {
 /*Projects section*/
 #projects {
     position: relative;
+    
 }
 
 .color-container{
@@ -356,3 +359,48 @@ article .icon {
 
 /*Contact section*/
 
+#contact{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
+    margin: 2rem auto;
+    padding :0.5rem;
+}
+
+.contact-info-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    margin: 1rem;
+}
+.contact-info-container p{
+    font-size: larger;
+
+}
+.contact-icon{
+    cursor: default;
+}
+.email-icon{
+    height: 2.5rem;
+}
+
+/*Footer section*/
+footer{
+    height: 26vh;
+    margin:0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
