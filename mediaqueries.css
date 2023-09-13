@@ -1,3 +1,16 @@
+@media screen and (max-width:1600px) {
+    
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+    #contact, footer {
+        height: 40vh;
+       }
+} 
 @media screen and (max-width:1400px) {
     
     #profile {
@@ -7,6 +20,9 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    #contact, footer {
+        height: 100vh;
+       }
 }
 
 @media screen and (max-width:1200px) {
@@ -23,6 +39,9 @@
     #profile, .section-container {
         display: block;
     }
+    #contact, footer {
+        height: 40vh;
+       }
     .arrow {
         display: none;
     }
