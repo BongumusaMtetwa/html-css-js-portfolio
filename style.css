@@ -27,12 +27,14 @@ transition : all 300ms ease;
 
 /*Desktop nav */
 nav , .nav-links{
+
     display:flex;
 }
 nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    
 }
 
 .nav-links{
@@ -142,7 +144,7 @@ a:hover{
 
 section{
     padding-top:4vh;
-    height: 96vh;
+    height: 95.5vh;
     margin:0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -316,7 +318,7 @@ section{
     flex-wrap: wrap;
     flex-direction: row;
     gap:2.5rem;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .article{
@@ -332,26 +334,21 @@ article .icon {
 
 /*Projects section*/
 #projects {
-    position: relative;
-    
+    position: relative;  
 }
-
 .color-container{
     border-color:rgb(163,163,163);
     background:grb(250,250,250);
 }
-
 .project-img{
     border-radius: 2rem;
     width:90%;
     height: 90%;
 }
-
 .project-title{
     margin:1rem;
     color:black;
 }
-
 .project-btn{
     color:black;
     border-color: rgb(163,163,163);
@@ -361,11 +358,11 @@ article .icon {
 
 #contact{
     display:flex;
+    position: relative;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 70vh;
 }
-
 .contact-info-upper-container{
     display: flex;
     justify-content: center;
@@ -376,7 +373,6 @@ article .icon {
     margin: 2rem auto;
     padding :0.5rem;
 }
-
 .contact-info-container{
     display:flex;
     align-items: center;
@@ -386,7 +382,6 @@ article .icon {
 }
 .contact-info-container p{
     font-size: larger;
-
 }
 .contact-icon{
     cursor: default;
@@ -400,7 +395,6 @@ footer{
     height: 26vh;
     margin:0 1rem;
 }
-
 footer p{
     text-align: center;
 }

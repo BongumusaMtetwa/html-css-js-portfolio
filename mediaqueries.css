@@ -1,18 +1,4 @@
-@media screen and (max-width:1600px) {
-    
-    #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
-    }
-    .about-containers{
-        flex-wrap: wrap;
-    }
-    #contact, footer {
-        height: 40vh;
-       }
-} 
 @media screen and (max-width:1400px) {
-    
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -20,9 +6,21 @@
     .about-containers{
         flex-wrap: wrap;
     }
-    #contact, footer {
-        height: 100vh;
-       }
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+    .arrow {
+        display: none;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -39,9 +37,6 @@
     #profile, .section-container {
         display: block;
     }
-    #contact, footer {
-        height: 40vh;
-       }
     .arrow {
         display: none;
     }
